@@ -1,0 +1,664 @@
+
+.mgt30 {
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper {
+
+    margin: auto;
+
+}
+
+.naviationCenter {
+
+    display: flex;
+    padding: 18px 30px 20px 80px;
+
+}
+
+.logo {
+
+    padding-top: 8px;
+
+
+}
+
+.logo h6 {
+    font-size: 23px;
+    font-family: Verdana, Sant-Serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+
+}
+
+.links {
+    width: 40%;
+    margin: auto;
+}
+
+.navBar ul, li {
+    float: left;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.navBar ul li a {
+    text-decoration-line: unset;
+    color: black;
+    padding-left: 35px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 100;
+    font-family: Verdana;
+}
+
+
+.navButton .addButton {
+    padding: 10px 20px;
+    background: #FAFAFA;
+    border: 1px solid #F7941E;
+    color: #F7941E;
+    text-align: center;
+    font-weight: 100;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: Tahoma;
+
+}
+
+
+.media {
+    display: block;
+}
+
+
+.mediaBack {
+
+    background-color: #F1F1F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.mediaBack .content {
+    width: 50%;
+}
+
+.content .textContent {
+    padding: 160px 140px 91px 140px;
+    margin: 0;
+}
+
+.textContent .title h6 {
+
+    margin: 0;
+    font-size: 56px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.textContent .subTitle p {
+
+    font-size: 20px;
+    font-family: Verdana;
+    line-height: 28px;
+    margin-top: 36px;
+}
+
+.textContent .giftButton {
+    padding: 21px 46px 21px 47px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 6px;
+    background-color: #F7941E;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Tahoma;
+}
+
+.rightImage {
+    width: 50%;
+    height: 700px;
+    background: url('../img/couple.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.rightContent {
+    width: 50%;
+}
+
+.rightContent .textContentRight {
+
+    border: 0;
+    padding: 164px 166px 100px 103px;
+    margin: 0;
+}
+
+.rightContent .TitleRiht h6 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 45px;
+    margin: 0;
+
+
+}
+
+.rightContent .SubTitleRiht {
+
+    margin-top: 23px;
+}
+
+.rightContent .SubTitleRiht p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.rightContent .giftButton {
+    background: #F1F1F2;
+    color: #F7941E;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    padding: 21px 46px 21px 47px;
+    margin-top: 25px;
+}
+
+.leftImage {
+    width: 50%;
+    height: 700px;
+    background: url('../img/postcard.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.postTall {
+    margin: 0;
+
+    padding: 96px 90px;
+    background: #ffffff;
+}
+
+.postTall .title {
+
+
+    margin: auto;
+
+}
+
+.postTall .title h2 {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 32px;
+    margin: 0;
+    font-weight: 100;
+}
+
+.postTall .title {
+    font-family: Verdana;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.cardBlogs {
+    display: flex;
+    margin: 0;
+
+}
+
+.cardBlogs .cardBlock {
+    width: 25%;
+    padding-right: 30px;
+
+}
+
+.cardBlogs .cardBlock .cardBlock_content {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.postTall .cardBlock .media {
+    height: 270px;
+
+}
+
+.postTall .cardBlock .BirthdayImg {
+
+    height: 270px;
+    background: url('../img/birthday.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.postTall .cardBlock .Anniversary {
+
+    height: 270px;
+    background: url('../img/Anniversary.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.postTall .cardBlock .ValentineImg {
+
+    height: 270px;
+    background: url('../img/valentines.day.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.postTall .cardBlock .Christmasimg {
+
+    height: 270px;
+    background: url('../img/christmas.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.postTall .cardBlock .content {
+    padding: 24px;
+    background-color: #FAFAFA;
+}
+
+.cardBlock .title {
+    width: 222px;
+    height: 24px;
+    margin: 0;
+
+}
+
+.cardBlogs .content h2 {
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+    text-align: left;
+}
+
+.cardBlock .textSm {
+    width: 67px;
+    height: 20px;
+    margin-top: 74px;
+}
+
+.cardBlock .textSm p {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+.ctaSaction {
+    height: 240px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7941E;
+}
+
+.ctaSaction .titleGroup {
+    width: 325px;
+    height: 90px;
+    padding: 0 120px;
+}
+
+.ctaSaction .boldTitle {
+    width: 325px;
+    height: 45px;
+
+}
+
+.ctaSaction .boldTitle h2 {
+    font-size: 28px;
+    font-family: Tahoma;
+    margin: 0;
+}
+
+.ctaSaction .title {
+    width: 312px;
+    height: 45px;
+    margin: 0;
+
+}
+
+.ctaSaction .title h2 {
+    font-size: 26px;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.ctaSaction .buttonGroup {
+    width: 420px;
+    height: 54px;
+    display: flex;
+    padding: 0 120px;
+}
+
+.ctaSaction .buttonBlack, .buttonlLimpid {
+
+    border-radius: 5px;
+}
+
+.buttonGroup .buttonBlack {
+    padding: 16px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+    font-family: Tahoma;
+}
+
+.buttonGroup .buttonlLimpid {
+
+    padding: 16px 30px;
+    margin-left: 16px;
+    background: #F7941E;
+    border: 1px solid #000;
+    border-radius: 6px;
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.ctaSaction p {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+
+.footerContent {
+
+    padding: 80px 130px;
+
+}
+
+.footerContent .footerNavBar {
+    margin: 0;
+    text-align: center;
+}
+
+.footerContent h1 {
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #000;
+    margin: 0;
+}
+
+.footerContent p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #000;
+
+}
+
+.footerContent .postBlog {
+
+    padding-top: 70px;: height: 860 px;
+}
+
+.postBlog .cardFeature {
+    display: flex;
+    height: 370px;
+    background-color: #231f20;
+}
+
+.postBlog .feuterMedia {
+    width: 400px;
+    height: 370px;
+    background: url('../img/weedeng.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.postBlog .feuterCenter {
+    padding: 50px 70px;
+}
+
+.feuterCenter .author p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+
+.feuterCenter .title h2 {
+    font-family: Tahoma;
+    font-size: 38px;
+    font-weight: 100;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.feuterCenter .link p {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+
+
+.footerContent .cardBlogs {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footerContent .cardBlockLeft, .cardBlockRight {
+
+    width: 570px;
+
+    padding: 30px;
+}
+
+.cardBlockLeft .title h2 {
+    font-family: sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.cardBlockLeft .titleText p {
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    padding: 16px 0px;
+}
+
+.cardBlockLeft .link p {
+    margin-top: 25px;
+    font-family: Tahoma;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.cardBlockLeft .cardBlock_shadow {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+
+}
+
+.cardBlockRight .title h2 {
+    font-family: sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.cardBlockRight .titleText p {
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    padding: 16px 0px;
+}
+
+.cardBlockRight .link p {
+    margin-top: 25px;
+    font-family: Tahoma;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+
+.footer {
+    padding: 50px 0 0 0;
+    background-color: #FAFAFA;
+}
+
+.border {
+    border: 1px solid #000;
+    margin: auto;
+    width: 80%;
+}
+
+.footer .logo {
+    padding: 0px;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 18px;
+    color: #F7941E;
+}
+
+.footer .footerNavCenter {
+    padding: 30px 30px 80px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .linksLeft, .linksRight {
+    display: flex;
+    margin: 0px 100px;
+
+
+}
+
+.footer .homeLink, .serviceLink {
+    padding-right: 80px;
+}
+
+.footerNavCenter a {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+    font-family: Verdana;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.linksImage {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footerLinks {
+    padding: 15px 0px;
+}
+
+.linksImage .facebook {
+
+    height: 38px;
+    width: 38px;
+    background: url('../img/fb.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.linksImage .twitter {
+
+    height: 33px;
+    width: 33px;
+    background: url('../img/twit.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.linksImage .intagram {
+
+    height: 29px;
+    width: 29px;
+    background: url('../img/insta.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.linksImage .youTube {
+
+    height: 31px;
+    width: 31px;
+    background: url('../img/youTube.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.linksImage .Pinterest {
+
+    height: 38px;
+    width: 38px;
+    padding-bottom: 2px;
+    background: url('../img/pint.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.linksImage .facebook, .twitter, .intagram, .youTube, .Pinterest {
+    margin: 12px;
+}
+
+
+.giftPopup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.popupWrapper {
+    width: 60%;
+    margin: 7% auto;
+    border: 1px solid #c3c3c3;
+    /* box-shadow: 12px 5px #c3c3c3; */
+    background: #fff;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
